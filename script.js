@@ -27,7 +27,7 @@ tl.to('.background .img3',{
         trigger: ".background",
         scroller: "body",
         start: "top top",
-        scrub:2,
+        scrub:1,
 
     }
     
@@ -43,7 +43,7 @@ tl.to('.background .img2',{
         trigger: ".background",
         scroller: "body",
         start: "top top",
-        scrub:3,
+        scrub:2,
         // pin: true
     }
     
@@ -58,7 +58,7 @@ tl.to('.background .img1',{
         trigger: ".background",
         scroller: "body",
         start: "top top",
-        scrub:2,
+        scrub:1,
         // pin: true
     }
     
@@ -75,7 +75,7 @@ tl.from(".elements img",{
         start: "top 60%",
         end: "top 70%",
         // markers:true,
-        scrub:2
+        scrub:1
 
     }
 })
@@ -86,7 +86,7 @@ tl.from(".paragraph p",{
     scrollTrigger:{
         trigger:".paragraph p",
         scroller:"body",
-        scrub:2,
+        scrub:1,
         start:"top 296%",
         // markers:true
 
